@@ -4,7 +4,10 @@ class Post
   
   def initialize(title)
     @title =  title
-    @author
+    save
   end
   
+  def save
+    
+  end
 end
