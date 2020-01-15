@@ -15,7 +15,7 @@ class Post
     @@all
   end
   
-  def author_name(author)
-    @author = Author.new(author)
+  def author_name
+    @author = Author.new
   end
 end
